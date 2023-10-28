@@ -1,0 +1,65 @@
+/* Reset some default styles and set the background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #f46e0e;
+    color: #f7f8f7;
+    padding: 0px;
+}
+
+
+footerr h1 {
+    text-align: center;
+    color: #9d1111;
+    background: linear-gradient(to right, #21e586, #9325d3);
+    color: #0b0a0a;
+    padding: 0px;
+}
+/* Style the h1 inside the header */
+header h1 {
+    font-size: 55px;
+}
+
+/* Style the main content section */
+.main-content {
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style the h2 inside the columns */
+.column h2 {
+    font-size: 24px;
+}
+
+/* Style the p tags inside the columns */
+.column p {
+    font-size: 16px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #21e586, #25d38d);
+    color: #fff;
+    padding: 10px;
+}

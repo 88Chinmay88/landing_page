@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s;
+        }
+
+        .popup {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            transform: translateX(20px);
+            opacity: 0;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        .popupp {
+            position: absolute;
+            bottom: 0;
+            right: 90%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            transform: translateX(20px);
+            opacity: 0;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        
+        
+        
+
+        .image-container:hover .image {
+            transform: scale(1.1);
+        }
+
+        .image-container:hover .popup {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .image-container:hover .popupp {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><h1>Welcome to FoodCode 
+            <marquee scrollamount="12"><image src ="C:\Users\TZZS\Desktop\food_truck.webp" height = "155" width="350"></image>
+        </marquee></p> </h1>
+    </header>
+    
+    <footerr>
+        <h1>Starters
+        <marquee scrollamount ="25" direction="right">Enjoy Starters And Have a Good Day</marquee></h1>
+    </footerr>
+    <p><div class="container">
+        <div class="image-container">
+            
+            <img class="image" src="C:\Users\TZZS\Desktop\masala papad.jpg" height = "95" width="250" alt="Image" />
+            <div class="popupp">
+                <p>prize:100</p>
+            </div>
+            <div class="popup">
+                <br>  
+                    <br>Detail Food description:
+                    Masala Papad Recipe – a quick, lip smacking finger snack which goes well as a side dish with any thing.</br>
+                </p>
+            </div>
+        
+            
+        </div>
+        <div class="image-container">
+            <img class="image" src="C:\Users\TZZS\Desktop\Babycorn Fritters.jpg" height = "95" width="250" alt="Image" />
+            <div class="popup">
+                <p>prize:200</p>
+            </div>
+            <div class="popupp">
+                <br>  
+                    <br>Detail Food description:
+                    Corn Fritters are savory, cornmeal-based batter with a pinch of sugar, milk and eggs mixed with canned or fresh corn.</br>
+                </p>
+            </div>
+        </div>
+         
+        <div class="image-container">
+            <img class="image" src="C:\Users\TZZS\Desktop\soya.jpg" height = "95" width="250" alt="Image" />
+            <div class="popup">
+                <p>prize:300</p>
+            </div>
+            <div class="popupp">
+                <br>  
+                    <br>Detail Food description:
+                    This bold Indian soya chunks dry masala features meaty soya chunks cooked in a rich Indian sauce.</br>
+                </p>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <img class="image" src="C:\Users\TZZS\Desktop\poha.jpg" height = "95" width="250" alt="Image" />
+            <div class="popup">
+                <p>prize:400</p>
+            </div>
+        
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:
+                poha cutlet is a very crunchy and tasty fried snack made with poha (flattened rice), moong dal, some green leafy vegetables, and some spices.</br>
+            </p>
+        </div>
+        </div>
+        </div>
+<footerr>
+    <h1>Chats
+    <marquee scrollamount ="25" direction="right">Have fast Food and Stay quicker</marquee></h1>
+</footerr>
+<p><div class="container">
+<div class="image-container">
+    
+    <img class="image" src="C:\Users\TZZS\Desktop\sev.jpg" height = "95" width="250" alt="Image" />
+    <div class="popupp">
+        <p>prize:100</p>
+    </div>
+    <div class="popup">
+        <br>  
+            <br>Detail Food description:
+            Sev puri is an Indian cuisine snack and a type of chaat.[1] It is a speciality that originates from Pune, Maharashtra, India.</br>
+        </p>
+    </div>
+
+    
+</div>
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\pani.jpg" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:200</p>
+    </div>
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:
+            Panipuri is deep-fried breaded sphere filled with potato, onion, or chickpea. It is a common street food in the Indian subcontinent. It is often spiced with tamarind chutney, chili powder, or chaat masala.</br>
+        </p>
+    </div>
+</div>
+ 
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\bhel.jpg" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:300</p>
+    </div>
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:
+            Bhel puri is a popular chaat snack made with puffed rice, sweet sour spicy chutneys, veggies & sev.</br>
+        </p>
+    </div>
+</div>
+
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\vadapav.jpg" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:400</p>
+    </div>
+
+<div class="popupp">
+    <br>  
+        <br>Detail Food description:
+        The dish consists of a deep fried potato dumpling placed inside a bread bun sliced almost in half through the middle. It is generally accompanied with one or more chutneys and a green chili pepper.</br>
+    </p>
+</div>
+</div>
+</div>
+<footerr>
+    <h1>Meals
+    <marquee scrollamount ="25" direction="right">Enjoy Meals And Stay healthy</marquee></h1>
+</footerr>
+<p><div class="container">
+    <div class="image-container">
+        
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:100</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    
+        
+    </div>
+    <div class="image-container">
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:200</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    </div>
+     
+    <div class="image-container">
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:300</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:400</p>
+        </div>
+    
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:</br>
+        </p>
+    </div>
+    </div>
+    </div><p><div class="container">
+<div class="image-container">
+    
+    <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:100</p>
+    </div>
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:</br>
+        </p>
+    </div>
+
+    
+</div>
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:200</p>
+    </div>
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:</br>
+        </p>
+    </div>
+</div>
+ 
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:300</p>
+    </div>
+    <div class="popupp">
+        <br>  
+            <br>Detail Food description:</br>
+        </p>
+    </div>
+</div>
+
+<div class="image-container">
+    <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+    <div class="popup">
+        <p>prize:400</p>
+    </div>
+
+<div class="popupp">
+    <br>  
+        <br>Detail Food description:</br>
+    </p>
+</div>
+</div>
+</div>
+<footerr>
+    <h1>Moctails
+    <marquee scrollamount ="25" direction="right">Enjoy Varieties of Moctails And Have a Good Day</marquee></h1>
+</footerr>
+<div class="container">
+    <div class="image-container">
+    
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:100</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    
+        
+    </div>
+    
+    <div class="image-container">
+    
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:100</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    
+        
+    </div>
+    <div class="image-container">
+    
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:100</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    
+        
+    </div>
+         
+    <div class="image-container">
+    
+        <img class="image" src="C:\Users\TZZS\Desktop\food_truck.webp" height = "95" width="250" alt="Image" />
+        <div class="popup">
+            <p>prize:100</p>
+        </div>
+        <div class="popupp">
+            <br>  
+                <br>Detail Food description:</br>
+            </p>
+        </div>
+    
+        
+    </div>
+        
+    </div>
+</p>
+    <section class="main-content">
+        <div class ="container"> 
+            
+            <div class="column">
+                <h2>About Us</h2>
+                <p>Insert your content here.</p>
+            </div>
+            <div class="column" align="right">
+                <h2>Services</h2>
+                <p>Insert your content here.</p>
+            </div>
+        
+            <div class="column">
+                <h2>Contact Us</h2>
+                <p>Insert your contact information here.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 Your Website
+    </footer>
+</body>
+</html>
