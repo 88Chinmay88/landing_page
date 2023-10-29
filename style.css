@@ -9,7 +9,7 @@ body {
 /* Style the header */
 header {
     text-align: center;
-    background-color: #f46e0e;
+    background: linear-gradient(to right, #e56221, #e6dc19);
     color: #f7f8f7;
     padding: 0px;
 }
